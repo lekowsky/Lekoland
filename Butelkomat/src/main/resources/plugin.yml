@@ -1,0 +1,21 @@
+name: Butelkomat
+version: 1.0.0
+main: pl.skyrise.butelkomat.Butelkomat
+api-version: '1.21'
+depend:
+  - Nexo
+  - Vault
+description: Oddaj butelki, dostań pieniądze
+authors:
+  - Skyrise
+
+commands:
+  bm:
+    description: Komendy butelkomatu
+    aliases: [butelkomat]
+
+permissions:
+  butelkomat.admin:
+    default: op
+  butelkomat.use:
+    default: true
